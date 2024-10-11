@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif ;
+}
+
+.showcase {
+    height: 100vh;
+    background-image: url(./images/sddsds.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    backdrop-filter: blur(40px);
+     height: 100vh;
+}
+
+header {
+    padding: 10px 12%
+}
+
+nav {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1;
+}
+
+.logo {
+    margin-top: 25px;
+
+}
+.logo span {
+    font-size: 1.2rem;
+}
+
+.nav-icon i {
+    background:  #000;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 20px 10px 0 5px;
+    cursor: pointer;
+     transition: all 0.5s ease-in-out
+}
+
+.hero-section {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 40px;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    text-transform:  capitalize;
+}
+
+button {
+    padding: 15px 2rem;
+    background: #000;
+    color: #fff;
+    margin-top:  2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor:  pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius:15px 15px 0 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover, .nav-icon i:hover{
+    transform: translateY(-5px);
+}
+
+.hero-img {
+    width: 700px;
+}
+
+.menu-items {
+    margin-top: 2rem;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-items img {
+    width:80PX;
+    cursor: pointer;
+    padding: 8px;
+    background: #ffffff62;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
